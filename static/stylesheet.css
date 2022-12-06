@@ -119,15 +119,23 @@ nav ul li button:hover{
 	transition: .4s;
 }
 
-.paddertwo {
-  padding: 10rem;
-}
 
 /*         ITEM LIST GRID          */
 .padder{
   padding: 10rem;
 }
-.items {
+.item {
+  margin: 25px 5px;
+  padding: 30px;
+  box-shadow: 2px 4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.item:hover {
+  background-color: rgb(115, 163, 214);
+  color: white;
+}
+/* .items {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 
@@ -136,13 +144,13 @@ nav ul li button:hover{
 .item {
     margin: 5px;
     padding: 30px;
-    background-color: rgb(203, 162, 162);
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
 
 .item:hover {
     background-color: gray;
-}
+} */
 
 
 /*         FINAL AMOUNT BOX / ADDS ALL UP       */
@@ -279,9 +287,36 @@ nav ul li button:hover{
      background: #4285F4;
    }
    
+   @media (max-width: 900px){
+     .slider{
+       width: 100%;
+     }
+   
+     .slider .slide .info{
+       position: relative;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+     }
+   }
+   
+   @media (max-width: 500px){
+     .slider .slide .info h2{
+       font-size: 1.8em;
+       line-height: 40px;
+     }
+   
+     .slider .slide .info p{
+       font-size: 0.9em;
+     }
+   }
  
 
 /*---------------          MY ABOUT PAGE             --------------------*/
+
+.paddertwo {
+  padding: 10rem;
+}
 
 .wrapper {
   width: 100%;
@@ -297,29 +332,155 @@ nav ul li button:hover{
   width: 30%;
   float: left;
 }
-
-
-
-@media (max-width: 900px){
-  .slider{
+.image-section img {
+  width: 50%;
+  height: 50%;
+}
+.content {
+  width: 60%;
+  float: left;
+  margin-left: 50px;
+}
+.content h1 {
+  font-size: 90px;
+  letter-spacing: 3.5px;
+  margin-top: 25px;
+  color: #222;
+}
+.content h2 {
+  font-style: 40px;
+  font-family: sans-serif;
+  color: #b60112;
+  margin-top: 25px;
+}
+.content p {
+  font-size: 20px;
+  font-family: serif;
+  margin-top: 10px;
+  line-height: 2;
+}
+@media screen and (max-width: 768px) {
+  .image-section{
     width: 100%;
+    float: none;
   }
-
-  .slider .slide .info{
-    position: relative;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+  .content{
+    width: 100%;
+    float: none;
+    margin-left: 0px;
   }
 }
 
-@media (max-width: 500px){
-  .slider .slide .info h2{
-    font-size: 1.8em;
-    line-height: 40px;
+
+/*---------------          MY CONTACT PAGE            --------------------*/
+.contakt{
+  padding: 100px;
+}
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-form{
+  max-width: 700px;
+  margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+  flex: 1;
+}
+
+.contact-form h2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+  margin-right: 15px;
+}
+
+.contact-form textarea{
+  background: #000;
+  color: #fff;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+  min-height: 200px;
+  max-height: 400px;
+  resize: vertical;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.contact-form .send-btn{
+  float: right;
+  background: #2E94E3;
+  color: #fff;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+  background: #0582E3;
+}
+
+@media screen and (max-width: 950px){
+  .contact-section{
+    flex-direction: column;
   }
 
-  .slider .slide .info p{
-    font-size: 0.9em;
+  .contact-info, .contact-form{
+    margin: 30px 50px;
+  }
+
+  .contact-form h2{
+    font-size: 30px;
+  }
+
+  .contact-form .text-box{
+    width: 100%;
   }
 }

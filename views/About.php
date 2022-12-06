@@ -13,7 +13,7 @@
     <div class="wrapper">
         <div class="row">
             <div class="image-section">
-                <img src="../img/luffytransparent.png">
+                <img src="/img/backgroundall.jpg">
             </div>
             <div class="content">
                 <h1>About us</h1>

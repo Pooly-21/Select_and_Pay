@@ -14,15 +14,15 @@
 
 // ------------------------              PHP CODE / REFER                   -------------------------------
     
-    if ( !isset($_SESSION['subTotal']) ) {
+    // if ( !isset($_SESSION['subTotal']) ) {
         
-        $_SESSION['subTotal'] = 0;
-    }
+    //     $_SESSION['subTotal'] = 0;
+    // }
     
 
-    if ( isset($_POST['selectedItemValue']) ) {
-        addToTotal();
-    }
+    // if ( isset($_POST['selectedItemValue']) ) {
+    //     addToTotal();
+    // }
 ?>
 
 <!------------------------              HOME PAGE HTML PHP                   ------------------------------->
@@ -60,7 +60,7 @@
                         </form>
                     </li>
                     <li><form action="<?= $_SERVER['PHP_SELF']?>" method="get">
-                        <button type="submit" name="filterOption" value="checkout">Checkout</button>
+                        <button type="submit" name="filterOption" value="checkout">viewItem</button>
                     </form>
                     </li>
                     <li><form action="<?= $_SERVER['PHP_SELF']?>" method="get">
@@ -114,6 +114,9 @@
                 case 'about':
                     include_once __DIR__ . "/views/About.php";
                     break;
+                    case 'contact':
+                        include_once __DIR__ . "/views/Contact.php";
+                        break;
                     
                 default:
                     # code...
