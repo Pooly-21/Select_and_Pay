@@ -26,14 +26,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/stylesheet.css">
     <title>Document</title>
+    <style>
+      .background-image {
+        background-image: url('https://images.unsplash.com/photo-1638730559083-2935c9bf6542?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 180vh;
+        height: 80vh;
+      }
+      .contact-form h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 35px;
+        text-transform: uppercase;
+      }
+      
+    </style>
 </head>
 <body class="contakt">
 <!--  -->
 
+<div class="background-image">
     <!--contact section start-->
     <div class="contact-section">
       <div class="contact-info">
-        <div><i class="fas fa-map-marker-alt" color="black"></i>CAPE TOWN</div>
+        <div><i class="fas fa-map-marker-alt"></i>CAPE TOWN</div>
         <div><i class="fas fa-envelope"></i>nuhrvanderschyff727@gmail.com</div>
         <div><i class="fas fa-phone"></i>+00 0000 000 000</div>
         <div><i class="fas fa-clock"></i>Mon - Fri 8:00 AM to 5:00 PM</div>
@@ -56,6 +73,7 @@
           <input type="submit" name="submit" class="send-btn" value="Send">
         </form> -->
       </div>
+    </div>
     </div>
   </body>
 </html>

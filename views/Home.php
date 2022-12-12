@@ -12,37 +12,39 @@
 
 <div class="slider">
   <div class="slide active">
-    <img src="../img/HomeBackground.jpg" alt="">
+    <a href="/views/windowshop.php">
+    <img src="https://images.unsplash.com/photo-1631831905906-d9c44601ec7f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+    </a>
     <div class="info">
-      <h2>WELCOME!</h2>
-      <p>Hope you find the reservation you're looking for, click anywhere on carousel or click on sign up above when youre done sightseeing ;) </p>
+      <h2>FORD</h2>
+      <p>Hope you find the car you're looking for, click anywhere on carousel or click on sign up above when youre done sightseeing ;) </p>
     </div>
   </div>
   <div class="slide">
-    <img src="../img/HomeBackground.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1653597235037-c00434b98121?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" alt="">
     <div class="info">
-      <h2>SINGLES</h2>
+      <h2> MERCEDES-BENZ </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
   <div class="slide">
-    <img src="../img/HomeBackground.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1551501419-cb31cdd588d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80" alt="">
     <div class="info">
-      <h2>DOUBLES</h2>
+      <h2> FORD GT </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
   <div class="slide">
-    <img src="../img/HomeBackground.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
     <div class="info">
-      <h2>HOTELS WITH THE BEST VIEWS</h2>
+      <h2> PORSCHE </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>
   <div class="slide">
-    <img src="../img/HomeBackground.jpg" alt="">
+    <img src="https://images.unsplash.com/photo-1616019459068-4cc6dca4d3a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
     <div class="info">
-      <h2>BEST DEALS</h2>
+      <h2> DODGE </h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </div>
   </div>

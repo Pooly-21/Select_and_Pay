@@ -1,10 +1,6 @@
 
 <?php
 
-    include_once __DIR__ . "/includes/data.php";
-    include_once __DIR__ . "/includes/addtotal.php";
-
-
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
@@ -46,12 +42,32 @@
                 <img src="https://images.unsplash.com/photo-1488188840666-e2308741a62f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80">
         </div> -->
 
+        <style>
+            nav .logo button{
+                float: left;
+                width: 40%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-size: 24px;
+                color: rgb(11, 11, 11);
+                background-color: transparent;
+                border-color: transparent;
+                padding: 2rem;
+            }
+            nav .logo button:hover{
+                color: rgb(255, 182, 46);
+                transition: .4s;
+            }
+
+        </style>
+
 
                 <nav>
                     <input id="nav-toggle" type="checkbox">
                     <div class="logo">
                             <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
-                            <button type="submit" name="filterOption" value="mugi">MUGI`WARA</button>
+                            <button type="submit" name="filterOption" value="mugi">MUGI`WARA DEALERSHIP</button>
                             </form>
                     </div>
                 <ul class="links">
@@ -60,7 +76,7 @@
                         </form>
                     </li>
                     <li><form action="<?= $_SERVER['PHP_SELF']?>" method="get">
-                        <button type="submit" name="filterOption" value="checkout">viewItem</button>
+                        <button type="submit" name="filterOption" value="checkout">ViewCart</button>
                     </form>
                     </li>
                     <li><form action="<?= $_SERVER['PHP_SELF']?>" method="get">
@@ -101,7 +117,7 @@
                     break;
 
                 case 'checkout':
-                    include_once __DIR__ . "/views/checkout.php";
+                    include_once __DIR__ . "/views/Cart.php";
                     break;
 
                 case 'login':
