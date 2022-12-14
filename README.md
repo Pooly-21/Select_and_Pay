@@ -1,3 +1,9 @@
+VIDEO SUBMISSION LINK
+
+
+https://www.loom.com/share/92c18b8a8adc4846bfb7856cc052b61f
+
+
 # Select_and_Pay
  
 Website has Home or Landing Page, About page, Lookbook page, Contact page and Shop page
